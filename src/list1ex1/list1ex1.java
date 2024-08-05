@@ -7,6 +7,7 @@ import javax.swing.JOptionPane;
 public class list1ex1 {
 	
     public static void main(String[] args) {
+    	
     	Integer n1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite a primeira nota: "));
     	Integer p1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite o peso da primeira nota: "));
     	Integer n2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite a segunda nota: "));
@@ -18,6 +19,6 @@ public class list1ex1 {
     	
     	JOptionPane.showConfirmDialog(null, "A media ponderada das notas e de: " +med);
     	
-    }
+    };
     
-}
+};
